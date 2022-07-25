@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "timer.h"
-#include "lily58.h"
+#include "lily58_rgb.h"
 
 char timelog_str[24] = {};
 int last_time = 0;

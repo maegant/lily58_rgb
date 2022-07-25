@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "led.h"
 #include "host.h"
-#include "lily58.h"
+#include "lily58_rgb.h"
 
 char host_led_state_str[24];
 

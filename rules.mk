@@ -32,4 +32,4 @@ SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 OLED_DRIVER_ENABLE = yes    # OLED display
 SPLIT_KEYBOARD = yes
 
-DEFAULT_FOLDER = lily58/rev2
+DEFAULT_FOLDER = lily58_rgb/rev2

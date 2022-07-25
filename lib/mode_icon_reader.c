@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-#include "lily58.h"
+#include "lily58_rgb.h"
 
 char mode_icon[24];
 
