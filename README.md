@@ -24,9 +24,19 @@ cp -r /lily58-rgb/ qmk_firmware/keyboards/
 cd qmk_firmware/keyboards/lily58_rgb
 qmk compile -kb lily58_rgb/rev2 -km maegan
 ```
+## Flash keyboard:
+```
+qmk flash
+```
 
 ## Bug fix
 If broken dependencies, try running:
 ```
 sudo apt-get install -y avrdude gcc-avr gcc-arm-none-eabi dfu-programmer dfu-util
+```
+
+If error with flashing on linux, try the following: (from this [link](https://arduino.stackexchange.com/questions/61359/avrdude-error-butterfly-programmer-uses-avr-write-page-but-does-not-provide))
+```
+sudo systemctl stop ModemManager.service
+sudo systemctl disable ModemManager.service
 ```
