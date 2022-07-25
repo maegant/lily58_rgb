@@ -11,13 +11,13 @@ If you're programming on linux, make sure to follow these [setup steps](https://
 ## Setup
 1. Follow [Setup instructions](https://docs.qmk.fm/#/newbs_getting_started) to install QMK
 2. Clone this repository
-```
-
-```
+    ```
+    git clone https://github.com/maegant/lily58_rgb
+    ```
 3. Move the contents of this repository to the qmk_firmware/keyboards/lily58 folder
-```
-cp -r /lily58-rgb/ qmk_firmware/keyboards/
-```
+    ```
+    cp -r /lily58_rgb/ qmk_firmware/keyboards/
+    ```
 
 ## Compile Build environment
 ```
@@ -29,7 +29,8 @@ qmk compile -kb lily58_rgb/rev2 -km maegan
 qmk flash
 ```
 
-## Bug fix
+___
+## Random Bug fixes
 If broken dependencies, try running:
 ```
 sudo apt-get install -y avrdude gcc-avr gcc-arm-none-eabi dfu-programmer dfu-util
