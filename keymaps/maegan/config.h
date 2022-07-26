@@ -20,15 +20,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-//#define USE_MATRIX_I2C
-
 /* Select hand configuration */
 
 #define MASTER_LEFT
 // #define MASTER_RIGHT
 // #define EE_HANDS
-
-#define USE_SERIAL_PD2
 
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 100
@@ -41,11 +37,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
-
-// Underglow
-/*
-#undef RGBLED_NUM
-#define RGBLED_NUM 14    // Number of LEDs
-#define RGBLIGHT_ANIMATIONS
-#define RGBLIGHT_SLEEP
-*/
